@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dark Themed Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header class="header">
+        <div class="logo">My Portfolio</div>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <h1>Hi! I'm Nayan</h1>
+        <p>A Web Developer(You Can Say).</p>
+        <button class="contact-button" onclick="scrollToContact()">Contact Me</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section with Social Icons -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/nayan-anime-a590972a0/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B%2BH3o7kYiTsKdJtjFSbPkjQ%3D%3D"><img src="Linkedin.png" alt="Linkedin"></a>
+            <a href="https://x.com/anime_naya42861/likes"><img src="Twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/_nayan._.moni/#"><img src="Instagram.png" alt="Instagram"></a>
+            <a href="https://github.com/nayan0moni"><img src="GitHub.png" alt="GitHub"></a>
+        </div>
+    </footer>
+
+    <!-- Modal for About -->
+    <div id="about-modal" class="modal-overlay">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <h2>About Me</h2>
+            <p>Hello! I'm Nayan, a high school student with no experience in programming. I specialize in nothing.</p>
+        </div>
+    </div>
+
+    <!-- Modal for Portfolio -->
+    <div id="portfolio-modal" class="modal-overlay">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <h2>My Portfolio</h2>
+            <p>Check out some of my recent projects where I've worked on user interfaces, branding, and website design. (LOL, I haven't created any projects yet.)</p>
+            <ul>
+                <li>Project 1:none</li>
+                <li>Project 2:none</li>
+                <li>Project 3:none</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
