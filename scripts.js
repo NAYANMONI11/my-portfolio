@@ -57,9 +57,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const message = document.getElementById("message").value;
 
         // Compose the mailto link
-        <a href="mailto:monin2771@gmail.com">Send Email</a>
-
+        const mailtoLink = `mailto:monin2771@gmail.com?subject=Contact%20from%20${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AFrom:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}`;
+        
+        // Redirect to mailto link
         window.location.href = mailtoLink;
     });
-    
+
 });
+
