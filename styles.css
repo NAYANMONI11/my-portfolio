@@ -47,13 +47,13 @@ a:hover {
 .main-content h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .main-content p {
     font-size: 1.5rem;
     margin-bottom: 40px;
-    color: #cccccc;
+    color: #000000;
 }
 
 .contact-button {
@@ -68,7 +68,7 @@ a:hover {
 }
 
 .contact-button:hover {
-    background-color: #007f82;
+    background-color: #000000;
 }
 
 /* Contact Section */
